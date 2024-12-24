@@ -47,7 +47,7 @@ To do so, we created the column "SOMMA", that contained the final total amounts.
 3. For this last data visualization we used two datasets from Our World in Data about "Mismanaged Plastic Waste". The first one focused about the total amount of annual estimate of plastic emission per country, while the second one contained the per capita values.
 The first step was organizing the countries into geographic macro-areas corresponding to continents. The continents considered for the analysis were:
 
-<br>•	South America and Central America
+•	South America and Central America
 <br>•	North America
 <br>•	South Africa
 <br>•	North Africa
