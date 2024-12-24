@@ -38,13 +38,15 @@ Lastly, for the third visualization, we used two datasets from Our World in Data
 
 ## Data pre-processing
 
-1. The dataset “Plastic Marine Pollution Global Dataset” from Figshare was used to further analyze the distribution of plastic waste in the oceans. This dataset provided latitude and longitude information, indicating the exact locations of microplastics in the ocean. Furthermore, the dataset categorized microplastics into four size classes (measured in millimeters).
+1. The dataset “Plastic Marine Pollution Global Dataset” from Figshare was used to analyze the distribution of plastic waste in the oceans. It provided latitude and longitude information, indicating the exact locations of microplastics in the ocean. Furthermore, the dataset categorized microplastics into four size classes (measured in millimeters).
 To enhance the analysis, we summed the quantities of microplastics for each size class and for each specific location. This allowed us to calculate the total quantity of microplastics in a km², giving a more comprehensive view of the density of microplastics across the ocean.
+To do so, we created the column "SOMMA", that contained the final total amounts.
 
 2. For the second data visualization we used the dataset about "Plastic emitted to the ocean" by Our World in Data, which provided the annual estimate of emissions of plastic in the oceans per country. The only pre-processing we did for this dataset was making sure that it contained the same countries as the dataset that we used for the third data visualization. Then, on Tableau, we decided to group the countries into five different categories, based on the amount of plastic that they emitted to the ocean, and in particular on this five ranges: 0-100, 100-1000, 1000-10.000, 10.000-100.000, >100.000 (tons of plastic).
 
 3. For this last data visualization we used two datasets from Our World in Data about "Mismanaged Plastic Waste". The first one focused about the total amount of annual estimate of plastic emission per country, while the second one contained the per capita values.
 The first step was organizing the countries into geographic macro-areas corresponding to continents. The continents considered for the analysis were:
+
 •	South America and Central America
 •	North America
 •	South Africa
@@ -54,7 +56,10 @@ The first step was organizing the countries into geographic macro-areas correspo
 •	Oceania
 
 The datasets already contained some rows with the total values for some continents, but we deleted them to group the countries into those different macro-areas and to avoid that those values distorted the overall analysis.
-Once the countries were grouped into their respective continent, we calculated the average plastic waste, in tons, for each country within every macro-area. To do this, we had to convert the values of the per capita dataset from kg to tons. 
+
+Once the countries were grouped into their respective continent, we calculated the average plastic waste for each continent. We did so by summing the values of each country within every macro-area and dividing by the number of countries in that macro-area.
+
+Then, to make a good comparison, we had to convert the values of the per capita dataset from kg to tons. 
    
 
 

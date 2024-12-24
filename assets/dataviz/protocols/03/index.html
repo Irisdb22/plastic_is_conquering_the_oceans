@@ -38,7 +38,7 @@
 					</a>
 				</span>
 				<h1>
-					Title of the data visualization n. 3
+					Mismanaged waste: total vs per capita
 				</h1>
 				<h2>
 					Visualization protocol
@@ -47,28 +47,31 @@
 			<article>
 				<section>
 					<h4>Timestamp</h4>
-					<p>Date</p><br/>
+					<p>2021-04-30</p><br/>
 					
 					<h4>Data source</h4>
-					<p><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv">Name of the data source</a></p><br/>
+					<p><a href="https://ourworldindata.org/grapher/plastic-waste-mismanaged">Plastic waste mismanaged</a></p><br/>
+					<p><a href="https://ourworldindata.org/grapher/mismanaged-plastic-waste-per-capita">Mismanaged plastic waste per capita</a></p><br/>
 
 					<h4>Dataset</h4>
 					<p>
-						<a href="../../dataset+metadata.zip">Download the dataset and the metadata</a>
+						<a href="../../dataset+metadata3.zip">Download the dataset and the metadata</a>
 					</p><br/>
 					
 					<h4>Protocol</h4>
 					<ol style="font-size: 1.3rem;">
-						<li>Action n. 1</li>
-						<li>Action n. 2</li>
-						<li>Action n. 3</li>
-						<li>Action n. 4</li>
-						<li>Action n. 5</li>
-						<li>Action n. 6</li>
-						<li>Action n. 7</li>
-						<li>Action n. 8</li>
-						<li>Action n. 9</li>
-						<li>Action n. 10</li>
+						For this last data visualization we used two datasets from Our World in Data about "Mismanaged Plastic Waste". The first one focused about the total amount of annual estimate of plastic emission per country, while the second one contained the per capita values.
+The first step was organizing the countries into geographic macro-areas corresponding to continents. The continents considered for the analysis were:
+<br><br>•	South America and Central America
+<br>•	North America
+<br>•	South Africa
+<br>•	North Africa
+<br>•	Asia
+<br>•	Europe
+<br>•	Oceania
+
+<br><br>The datasets already contained some rows with the total values for some continents, but we deleted them to group the countries into those different macro-areas and to avoid that those values distorted the overall analysis.<br><br>
+Once the countries were grouped into their respective continent, we calculated the average plastic waste for each continent. We did so by summing the values of each country within every macro-area and dividing by the number of countries in that macro-area. <br><br>Then, to make a good comparison, we had to convert the values of the per capita dataset from kg to tons.
 					</ol>
 					
 				</section>
