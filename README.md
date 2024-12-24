@@ -24,7 +24,12 @@ Therefore, the target of this research is basically everyone. In fact, it's impo
 
 
 ## Data sources
-Facilisis magna etiam tempor orci eu. Felis donec et odio pellentesque diam volutpat commodo. Dis parturient montes nascetur ridiculus mus mauris vitae. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Accumsan sit amet nulla facilisi. Ultricies leo integer malesuada nunc vel risus. Est lorem ipsum dolor sit. Ultrices neque ornare aenean euismod elementum nisi. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Arcu dictum varius duis at consectetur lorem donec massa sapien. Pellentesque habitant morbi tristique senectus. Turpis massa sed elementum tempus egestas sed sed risus pretium. Eros donec ac odio tempor orci. Pellentesque id nibh tortor id aliquet lectus. Risus feugiat in ante metus dictum at. Quam pellentesque nec nam aliquam sem et tortor consequat id. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Sit amet dictum sit amet justo donec enim.
+
+For the first data visualization, "Microplastic in the ocean", we used a dataset from Figshare that provides information about specific points in the ocean, including the latitude and longitude of each point and the corresponding amount of microplastic detected at that location.
+
+For the second data visualization, titled "Countries that emit more plastic in the oceans," we used a dataset from Our World in Data, which provides the annual estimate of plastic emissions per country.
+
+Lastly, for the third visualization, we used two datasets from Our World in Data: one for the total amount of mismanaged plastic waste and the other for the mismanaged plastic waste per capita. 
 
 [Datasource 1](https://figshare.com/articles/dataset/Plastic_Marine_Pollution_Global_Dataset/1015289?file=1483767)
 [Datasource 2](https://ourworldindata.org/grapher/plastic-waste-emitted-to-the-ocean)
@@ -45,17 +50,17 @@ print(df.columns)
 ## Data visualizations
 Sed enim ut sem viverra aliquet eget sit. Iaculis at erat pellentesque adipiscing commodo. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Ipsum faucibus vitae aliquet nec ullamcorper sit. Tempus quam pellentesque nec nam aliquam sem et tortor. Turpis egestas sed tempus urna et pharetra pharetra massa. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
 
-### Title of the data visualization n. 1 
+### Data visualization n. 1 - Amount of microplastics in the ocean
 Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus.
 
 [<img src="assets/images/01.png" width="800" alt="Placeholder image">]()
 
-### Title of the data visualization n. 2
+### Data visualization n. 2 - Countries that emit more plastic in the oceans
 Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus.
 
 [<img src="assets/images/02.png" width="800" alt="Placeholder image">]()
 
-### Title of the data visualization n. 3
+### Data visualization n. 3 - mismanaged waste - total VS per capita
 Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus.
 
 [<img src="assets/images/03.png" width="800" alt="Placeholder image">]()
