@@ -3,21 +3,21 @@ Data Visualization course, M-D3202E
 Teacher Giovanni Profeta
 
 
-# Project title
+# Plastic is Conquering the Oceans
 Authors: [Iris Johanna Di Bello](https://www.instagram.com/irisdbl/), [Federica Eoli](https://www.instagram.com/federicaaaeoli/), [Gioia Le Le Wu](https://www.instagram.com/wu_gioia/)
 
 [Plastic is Conquering the Oceans](https://irisdb22.github.io/plastic_is_conquering_the_oceans/)
 
 
 ## Abstract
-This webpage shows the results of the research we carried out about one of the major problems related to pollution on Earth, that is the issue of plastics in the oceans. We chose this topic because, sadly, all of the plastic in the ocean is <em>made by humans.
+This webpage shows the results of the research we carried out about one of the major problems related to pollution on Earth, that is the issue of plastics in the oceans. We chose this topic because, sadly, all of the plastic in the ocean is <em>made by humans.</em>
 The questions that we asked ourselves are, first of all, how much plastic is there in the oceans? Then we gathered some information on the consequences of these high quantities: we described what garbage patches are and their impact on human health and on the environment.
 Subsequently, the main thing we wanted to discover was the source of all this pollution in the different oceans, and in particular which countries were the worst at managing plastic waste.
 Lastly, to better explain this, we grouped the countries by continent and analyzed not just the total values, but also the values per capita, so the singular contribute to the issue. In fact, our final goal is to make everyone aware that the total amount of global waste is made by the contribute of every single person on this planet, and that the change is always in the hands of the collectivity, which, however, is made by many individuals.
 
 
 ## Introduction
-Do you know which is one of the biggest things made by humans? Well, it's easy. It is <em>waste. Humans are really good at creating waste, but, unfortunately, they're not equally good at disposing it. In this webpage we analyze one of the most popular destinations of mismanaged waste: the ocean. How can we blame it? The ocean is definitely a good destination to choose. However, this choice can have serious consequences on our planet and its inhabitants, starting from the health of animals, of the environment and, last but not least, of humans.
+Do you know which is one of the biggest things made by humans? Well, it's easy. It is <em>waste</em>. Humans are really good at creating waste, but, unfortunately, they're not equally good at disposing it. In this webpage we analyze one of the most popular destinations of mismanaged waste: the ocean. How can we blame it? The ocean is definitely a good destination to choose. However, this choice can have serious consequences on our planet and its inhabitants, starting from the health of animals, of the environment and, last but not least, of humans.
 Therefore, the target of this research is basically everyone. In fact, it's important that every human on this planet learns how much their habits could badly affect our environment. More in particular, we would like to draw the attention of the youngest generations, that are the ones that can really make a difference on the long term.
 
 
@@ -48,12 +48,17 @@ Sed enim ut sem viverra aliquet eget sit. Iaculis at erat pellentesque adipiscin
 ### Title of the data visualization n. 1 
 Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus.
 
-[<img src="assets/images/03.png" width="800" alt="Placeholder image">]()
+[<img src="assets/images/01.png" width="800" alt="Placeholder image">]()
 
 ### Title of the data visualization n. 2
 Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus.
 
-[<img src="assets/images/04.png" width="800" alt="Placeholder image">]()
+[<img src="assets/images/02.png" width="800" alt="Placeholder image">]()
+
+### Title of the data visualization n. 3
+Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus.
+
+[<img src="assets/images/03.png" width="800" alt="Placeholder image">]()
 
 
 ## Key findings
