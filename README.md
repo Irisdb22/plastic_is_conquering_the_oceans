@@ -10,11 +10,17 @@ Authors: [Iris Johanna Di Bello](https://www.instagram.com/irisdbl/), [Federica 
 
 
 ## Abstract
-This webpage shows the results of the research we carried out about one of the major problems related to pollution on Earth, that is the issue of plastics in the oceans. We chose this topic because, sadly, all of the plastic in the ocean is <em>made by humans.<\em>
+This webpage shows the results of the research we carried out about one of the major problems related to pollution on Earth, that is the issue of plastics in the oceans. We chose this topic because, sadly, all of the plastic in the ocean is <em>made by humans.
+The questions that we asked ourselves are, first of all, how much plastic is there in the oceans? Then we gathered some information on the consequences of these high quantities: we described what garbage patches are and their impact on human health and on the environment.
+Subsequently, the main thing we wanted to discover was the source of all this pollution in the different oceans, and in particular which countries were the worst at managing plastic waste.
+Lastly, to better explain this, we grouped the countries by continent and analyzed not just the total values, but also the values per capita, so the singular contribute to the issue. In fact, our final goal is to make everyone aware that the total amount of global waste is made by the contribute of every single person on this planet, and that the change is always in the hands of the collectivity, which, however, is made by many individuals.
 
 
 ## Introduction
-Dolor sit amet consectetur adipiscing elit duis tristique. Sociis natoque penatibus et magnis dis parturient montes nascetur. Est sit amet facilisis magna. Tellus rutrum tellus pellentesque eu. Dictum sit amet justo donec enim. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Sed faucibus turpis in eu mi bibendum neque egestas congue. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Dolor magna eget est lorem ipsum dolor. Sit amet mattis vulputate enim nulla. Elit pellentesque habitant morbi tristique senectus et. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa.
+Do you know which is one of the biggest things made by humans? Well, it's easy. It is <em>waste. Humans are really good at creating waste, but, unfortunately, they're not equally good at disposing it. In this webpage we analyze one of the most popular destinations of mismanaged waste: the ocean. How can we blame it? The ocean is definitely a good destination to choose. However, this choice can have serious consequences on our planet and its inhabitants, starting from the health of animals, of the environment and, last but not least, of humans.
+Therefore, the target of this research is basically everyone. In fact, it's important that every human on this planet learns how much their habits could badly affect our environment. More in particular, we would like to draw the attention of the youngest generations, that are the ones that can really make a difference on the long term.
+
+
 
 
 ## Data sources
