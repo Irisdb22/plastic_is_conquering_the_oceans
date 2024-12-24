@@ -147,6 +147,12 @@ h5{
 	margin: 0 0 0.5rem;
 }
 
+h6{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 0 1rem;
+}
+
 p{
 	text-align: justify;
 	font-size: 1.3rem;
@@ -203,6 +209,19 @@ figcaption{
 .download a:hover {  
 	color: black;
 }
+footer {
+	text-align: center; /* Centra il contenuto del footer */
+	padding: 20px; /* Aggiunge spazio intorno al footer */
+  }
+  
+  footer ul {
+	list-style: none; /* Rimuove i puntini dall'elenco */
+	padding: 0; /* Rimuove il margine interno */
+  }
+  
+  footer h2 {
+	margin-bottom: 10px; /* Spazio sotto il titolo "Online References" */
+  }
 
 
 

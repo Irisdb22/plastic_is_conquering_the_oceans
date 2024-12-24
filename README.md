@@ -37,37 +37,53 @@ Lastly, for the third visualization, we used two datasets from Our World in Data
 [Datasource 3.2](https://ourworldindata.org/grapher/mismanaged-plastic-waste-per-capita)
 
 ## Data pre-processing
-Nunc consequat interdum varius sit amet mattis vulputate. Vehicula ipsum a arcu cursus vitae congue. Odio ut sem nulla pharetra. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Nunc aliquet bibendum enim facilisis gravida neque convallis a. Lacus sed turpis tincidunt id aliquet risus feugiat.
+
+1. The dataset “Plastic Marine Pollution Global Dataset” from Figshare was used to further analyze the distribution of plastic waste in the oceans. This dataset provided latitude and longitude information, indicating the exact locations of microplastics in the ocean. Furthermore, the dataset categorized microplastics into four size classes (measured in millimeters).
+To enhance the analysis, we summed the quantities of microplastics for each size class and for each specific location. This allowed us to calculate the total quantity of microplastics in a km², giving a more comprehensive view of the density of microplastics across the ocean.
+
+2. For the second data visualization we used the dataset about "Plastic emitted to the ocean" by Our World in Data, which provided the annual estimate of emissions of plastic in the oceans per country. The only pre-processing we did for this dataset was making sure that it contained the same countries as the dataset that we used for the third data visualization. Then, on Tableau, we decided to group the countries into five different categories, based on the amount of plastic that they emitted to the ocean, and in particular on this five ranges: 0-100, 100-1000, 1000-10.000, 10.000-100.000, >100.000 (tons of plastic).
+
+3. For this last data visualization we used two datasets from Our World in Data about "Mismanaged Plastic Waste". The first one focused about the total amount of annual estimate of plastic emission per country, while the second one contained the per capita values.
+The first step was organizing the countries into geographic macro-areas corresponding to continents. The continents considered for the analysis were:
+•	South America and Central America
+•	North America
+•	South Africa
+•	North Africa
+•	Asia
+•	Europe
+•	Oceania
+
+The datasets already contained some rows with the total values for some continents, but we deleted them to group the countries into those different macro-areas and to avoid that those values distorted the overall analysis.
+Once the countries were grouped into their respective continent, we calculated the average plastic waste, in tons, for each country within every macro-area. To do this, we had to convert the values of the per capita dataset from kg to tons. 
+   
 
 
-```Python
-import pandas as pd
 
-df = pd.read_csv('file.tsv', sep='\t')
-print(df.columns)
-```
 
 ## Data visualizations
-Sed enim ut sem viverra aliquet eget sit. Iaculis at erat pellentesque adipiscing commodo. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Ipsum faucibus vitae aliquet nec ullamcorper sit. Tempus quam pellentesque nec nam aliquam sem et tortor. Turpis egestas sed tempus urna et pharetra pharetra massa. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
+Our analysis has revealed some key insights that shed light on the global issue of microplastics and poorly managed plastic waste.
 
 ### Data visualization n. 1 - Amount of microplastics in the ocean
-Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus.
+The first visualization shows that the Pacific Ocean has the highest concentration of microplastics. This makes sense, if we consider its location: the Pacific lies between Asia and the Americas, two regions responsible for the largest amounts of plastic production and waste. As a result, vast amounts of plastic end up accumulating there. In comparison, the plastic islands in other oceans are relatively smaller.
 
 [<img src="assets/images/01.png" width="800" alt="Placeholder image">]()
 
 ### Data visualization n. 2 - Countries that emit more plastic in the oceans
-Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus.
+The second visualization shows us which countries have the largest amount of plastic emitted in the oceans. It highlights that Asia, in particular, has a significant share of plastic that isn’t properly disposed of, contributing heavily to pollution.
 
 [<img src="assets/images/02.png" width="800" alt="Placeholder image">]()
 
 ### Data visualization n. 3 - mismanaged waste - total VS per capita
-Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus.
+Interestingly, the third visualization gives us a different perspective. When looking at per capita plastic consumption, North America stands out as the highest consumer. This means that while North America may not produce the largest total volume of mismanaged plastic, individual consumption levels are the highest in the world.
 
 [<img src="assets/images/03.png" width="800" alt="Placeholder image">]()
 
 
 ## Key findings
-Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Nunc aliquet bibendum enim facilisis gravida neque convallis a. Lacus sed turpis tincidunt id aliquet risus feugiat.
+Our research revealed that the countries contributing most significantly to ocean pollution are primarily located in Asia and North America. This finding aligns with the fact that the largest plastic garbage patch is in the Pacific Ocean, underscoring the regional sources of the problem. At the same time, our analysis confirmed that global waste generation is ultimately the result of individual contributions from every person on the planet. This highlights the critical importance of individual actions and behaviors in addressing the issue. To create meaningful change, it is essential to focus on these individual contributions as the foundation for larger, collective efforts.
 
 ## Next steps
-Tellus rutrum tellus pellentesque eu. Dictum sit amet justo donec enim. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Sed faucibus turpis in eu mi bibendum neque egestas congue. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Dolor magna eget est lorem ipsum dolor. Sit amet mattis vulputate enim nulla. Elit pellentesque habitant morbi tristique senectus et.
+To build on these findings, we suggest two main steps:
+1.	Instead of grouping data by continents, we could conduct a more detailed analysis by examining plastic consumption and waste management at the country level, including per capita consumption. This approach would provide a clearer understanding of where the issue is most critical and the underlying reasons. Additionally, for each country, we could assess their performance in recycling and other waste disposal methods to identify specific areas for improvement.
+2.	We also would like to explore which types of plastic are most commonly found in the plastic islands and investigate the root causes of poor plastic management—whether they’re driven by political, economic, or social factors.
+These deeper insights would not only help us develop more targeted solutions but also raise awareness and encourage action among policymakers and communities worldwide to effectively address the plastic crisis.
