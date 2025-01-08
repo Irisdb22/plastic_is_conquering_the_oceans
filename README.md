@@ -4,7 +4,7 @@ Teacher Giovanni Profeta
 
 
 # Plastic is Conquering the Oceans
-Authors: [Iris Johanna Di Bello](https://www.instagram.com/irisdbl/), [Federica Eoli](https://www.instagram.com/federicaaaeoli/), [Gioia Le Le Wu](https://www.instagram.com/wu_gioia/)
+Authors: [Iris Johanna Di Bello](https://www.linkedin.com/in/iris-di-bello-771a11331/?originalSubdomain=it), [Federica Eoli](https://www.linkedin.com/in/federica-eoli-984453267/), [Gioia Le Le Wu](https://www.linkedin.com/in/gioia-le-le-wu/)
 
 [Plastic is Conquering the Oceans](https://irisdb22.github.io/plastic_is_conquering_the_oceans/)
 
